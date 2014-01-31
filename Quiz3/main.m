@@ -72,6 +72,8 @@ int main(int argc, char * argv[])
             NSLog(@"Hello World");
         };
         
+        myFirstBlock();
+        
         void (^mySecondBlock)(NSString *);
         
         mySecondBlock = ^(NSString *astring) {
